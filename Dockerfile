@@ -1,3 +1,3 @@
 FROM stenote/nginx-hostname:latest
-RUN apk update && apk install curl
+RUN apk update && apk add curl
 CMD ["nginx"]
